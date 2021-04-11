@@ -4,10 +4,10 @@
 
 For building and running the application you need:
 
-- [JDK 16>](https://openjdk.java.net/projects/jdk/16/)
-- [Maven 3.6>](https://maven.apache.org)
+- [JDK 16](https://openjdk.java.net/projects/jdk/16/)
+- [Maven 3.6](https://maven.apache.org)
     - Before using phonebook api you should compile and add this project. You can use this command: `mvn clean install`.
-- [MongoDB 4.4>](https://www.mongodb.com/)
+- [MongoDB 4.4](https://www.mongodb.com/)
     - Create a database named *phone-book*. You can use bellow:
     ```
     $monog
