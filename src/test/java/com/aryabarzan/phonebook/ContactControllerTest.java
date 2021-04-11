@@ -45,7 +45,7 @@ public class ContactControllerTest {
                 .expectStatus().isCreated()
                 .expectBody()
                 .jsonPath("$.firstName").isEqualTo("Nader")
-                .jsonPath("$.githubNameRepositories[0]").isEqualTo("DBSCANPlot")
+                .jsonPath("$.githubNameRepositories[0]").isEqualTo("phone-book-api")
         ;
     }
 
@@ -80,7 +80,7 @@ public class ContactControllerTest {
                 .expectStatus().isOk()
                 .expectBody()
                 .jsonPath("$.firstName").isEqualTo("Nader")
-                .jsonPath("$.githubNameRepositories[0]").isEqualTo("DBSCANPlot")
+                .jsonPath("$.githubNameRepositories[0]").isEqualTo("phone-book-api")
         ;
     }
 }
