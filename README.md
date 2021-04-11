@@ -10,7 +10,7 @@ For building and running the application you need:
 - [MongoDB 4.4](https://www.mongodb.com/)
     - Create a database named *phone-book*. You can use bellow:
     ```
-    $monog
+    $mongo
     >use phone-book
     ```
 
